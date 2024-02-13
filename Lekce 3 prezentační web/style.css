@@ -1,0 +1,67 @@
+.header {
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.logo {
+  width: 50px;
+  display: inline-block;
+}
+.heading-logo {
+  display: none;
+}
+
+.content {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 20%;
+}
+
+.button {
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+  background-color: green;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.article {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.heading {
+  font-size: 26px;
+  font-wight: 800;
+}
+
+.footer {
+  font-size: 15px;
+  text-align: center;
+  background-color: #007fff;
+  padding: 10px;
+  color: #ffffff;
+}
+
+/* Mobilní zobrazení */
+
+@media only screen and (max-width: 576px) {
+  .heading-logo {
+    /* šchovaný logo */
+    display: block;
+  }
+}
